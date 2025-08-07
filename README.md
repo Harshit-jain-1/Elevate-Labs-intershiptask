@@ -33,3 +33,22 @@ Patterns & Trends Identified
 Feature-Level Inferences
 . Gender, class, and embarkation are strong survival indicators
 . Cabin and Age require preprocessing due to missing data
+
+# Task 3: House Price Prediction
+#Objective
+This project demonstrates how to implement Multiple Linear Regression using Python's scikit-learn to predict house prices based on multiple features from the Housing.csv dataset.
+# Keys Steps Performed
+Model Training
+. Built a Multiple Linear Regression model with LinearRegression from sklearn
+
+Model Evaluation
+. MAE (Mean Absolute Error)
+. MSE (Mean Squared Error)
+. R² Score (Coefficient of Determination)
+
+Visualization
+. Actual vs Predicted Plot using seaborn
+. Residual Plot to analyze prediction errors
+
+Model Interpretation
+. Printed model coefficients and intercept to understand how each feature affects house price
