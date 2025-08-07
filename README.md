@@ -12,7 +12,7 @@ The final cleaned dataset is ready for model training.
 
 # Task 2: Exploratory Data Analysis (EDA)
 
-#Objective
+# Objective
 Perform EDA on the Titanic dataset to understand its structure, identify key patterns, and prepare for further modeling.
 # Key Steps Performed
 Summary Statistics
@@ -35,7 +35,7 @@ Feature-Level Inferences
 . Cabin and Age require preprocessing due to missing data
 
 # Task 3: House Price Prediction
-#Objective
+# Objective
 This project demonstrates how to implement Multiple Linear Regression using Python's scikit-learn to predict house prices based on multiple features from the Housing.csv dataset.
 # Keys Steps Performed
 Model Training
