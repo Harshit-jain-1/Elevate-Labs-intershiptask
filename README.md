@@ -52,3 +52,15 @@ Visualization
 
 Model Interpretation
 . Printed model coefficients and intercept to understand how each feature affects house price
+
+# Task 4: Logistic Regression: Breast Cancer Classification
+This project implements a binary classification model using Logistic Regression with L1 regularization to classify tumors as malignant or benign based on the Breast Cancer Wisconsin dataset.
+
+# Objective
+. Build a binary classifier using Logistic Regression
+. visualization the 'malignant', 'benign'
+. Evaluate the model using common classification metrics
+. Visualize performance using ROC Curve
+. Explore effect of changing decision thresholds
+. Understand the role of the sigmoid function
+
