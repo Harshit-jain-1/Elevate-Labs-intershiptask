@@ -64,3 +64,11 @@ This project implements a binary classification model using Logistic Regression 
 . Explore effect of changing decision thresholds
 . Understand the role of the sigmoid function
 
+# Tash 5: Heart Disease Classification Using Decision Trees and Random Forests
+This project demonstrates how to build, evaluate, and interpret tree-based machine learning models for classification using the Heart Disease dataset.
+
+# Objective:
+. Train and evaluate Decision Tree and Random Forest classifiers on the Heart Disease dataset.
+. Analyze overfitting by controlling tree depth.
+. Interpret feature importance and evaluate with cross-validation.
+. Evaluate both models using 5-fold cross-validation.
