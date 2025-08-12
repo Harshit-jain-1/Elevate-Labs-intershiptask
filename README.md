@@ -72,3 +72,12 @@ This project demonstrates how to build, evaluate, and interpret tree-based machi
 . Analyze overfitting by controlling tree depth.
 . Interpret feature importance and evaluate with cross-validation.
 . Evaluate both models using 5-fold cross-validation.
+
+# Tsk 6: K-Nearest Neighbors (KNN) Classification
+This project demonstrates how to implement the K-Nearest Neighbors (KNN) algorithm for a classification task using the Iris dataset. It covers:
+
+# Objective
+. Data preprocessing and normalization
+. Model training using different values of K
+. Model evaluation using accuracy, confusion matrix, and classification report
+. Visualization of decision boundaries using PCA
