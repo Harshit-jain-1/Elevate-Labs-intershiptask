@@ -81,3 +81,13 @@ This project demonstrates how to implement the K-Nearest Neighbors (KNN) algorit
 . Model training using different values of K
 . Model evaluation using accuracy, confusion matrix, and classification report
 . Visualization of decision boundaries using PCA
+
+# Task 7: Support Vector Machines (SVM)
+This project demonstrates how to build a binary classification model using Support Vector Machines (SVMs) in Python. The workflow includes data preparation, model training (with linear and RBF kernels), dimensionality reduction for visualization, hyperparameter tuning, and model evaluation using cross-validation.
+
+# Objective
+. Loaded and scaled data for binary classification
+. Trained SVM models with linear and RBF kernel.
+. Used PCA to reduce to 2D and plot decision boundaries
+. Tuned C and gamma using grid search
+. Checked model performance with cross-validation
