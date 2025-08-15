@@ -54,9 +54,9 @@ Model Interpretation
 . Printed model coefficients and intercept to understand how each feature affects house price
 
 # Task 4: Logistic Regression: Breast Cancer Classification
-This project implements a binary classification model using Logistic Regression with L1 regularization to classify tumors as malignant or benign based on the Breast Cancer Wisconsin dataset.
-
 # Objective
+This project implements a binary classification model using Logistic Regression with L1 regularization to classify tumors as malignant or benign based on the Breast Cancer Wisconsin dataset.
+# Key Steps Performed
 . Build a binary classifier using Logistic Regression
 . visualization the 'malignant', 'benign'
 . Evaluate the model using common classification metrics
@@ -65,29 +65,62 @@ This project implements a binary classification model using Logistic Regression 
 . Understand the role of the sigmoid function
 
 # Tash 5: Heart Disease Classification Using Decision Trees and Random Forests
+# Objective
 This project demonstrates how to build, evaluate, and interpret tree-based machine learning models for classification using the Heart Disease dataset.
 
-# Objective:
+# Key Steps Performed
 . Train and evaluate Decision Tree and Random Forest classifiers on the Heart Disease dataset.
 . Analyze overfitting by controlling tree depth.
 . Interpret feature importance and evaluate with cross-validation.
 . Evaluate both models using 5-fold cross-validation.
 
+# Result
+. Model Accuracy (5-Fold Cross-Validation)
+. Overfitting Analysis
+. Feature Importance (Random Forest)
+. Evaluation Metrics
+
 # Tsk 6: K-Nearest Neighbors (KNN) Classification
+# Objective
 This project demonstrates how to implement the K-Nearest Neighbors (KNN) algorithm for a classification task using the Iris dataset. It covers:
 
-# Objective
+# Key Steps Performed
 . Data preprocessing and normalization
 . Model training using different values of K
 . Model evaluation using accuracy, confusion matrix, and classification report
 . Visualization of decision boundaries using PCA
 
+# Result
+. Model Accuracy (Different K Values)
+. Evaluation Metrics (Best K = 3)
+. Decision Boundary Visualization (PCA)
+
 # Task 7: Support Vector Machines (SVM)
-This project demonstrates how to build a binary classification model using Support Vector Machines (SVMs) in Python. The workflow includes data preparation, model training (with linear and RBF kernels), dimensionality reduction for visualization, hyperparameter tuning, and model evaluation using cross-validation.
 
 # Objective
+This project demonstrates how to build a binary classification model using Support Vector Machines (SVMs) in Python. The workflow includes data preparation, model training (with linear and RBF kernels), dimensionality reduction for visualization, hyperparameter tuning, and model evaluation using cross-validation.
+
+# Key Steps Performed
 . Loaded and scaled data for binary classification
 . Trained SVM models with linear and RBF kernel.
 . Used PCA to reduce to 2D and plot decision boundaries
 . Tuned C and gamma using grid search
 . Checked model performance with cross-validation
+
+# Result
+. Best Hyperparameters (Grid Search)
+. Cross-Validation Accuracy
+. Decision Boundary Visualization (with PCA)
+
+# Tash 8: Clustering with K-Means
+# Obective
+This project applies unsupervised learning using K-Means Clustering to segment customers based on their behavior. It uses the Mall Customer Segmentation Dataset to identify distinct customer groups for better marketing strategies.
+# Key Steps Performed
+. Elbow Plot: Visual tool to identify the optimal number of clusters
+. Cluster Visualization: PCA-reduced 2D plot showing clusters with color-coding
+. Silhouette Score: Metric to evaluate how well the data has been clustered
+
+# Results
+. Optimal number of clusters (K) is determined using the Elbow Method
+. Customers are grouped based on age, income, and spending score
+. Visual cluster boundaries and centroids help interpret customer segments
